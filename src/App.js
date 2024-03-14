@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Encabezado from './Componentes/Layouts/Encabezado/Encabezado';
+import Pie from './Componentes/Layouts/Pie/Pie'; 
+import QuienesSomos from './Componentes/Paginas/QuienesSomos/QuienesSomos';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
+import Home from './Componentes/Paginas/Home/Home';
+import IOT from './Componentes/Paginas/IOT/IOT';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Encabezado />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/quienessomos" element={<QuienesSomos />} />
+        <Route path="/iot" element={<IOT />} />
+      </Routes>
+      <Pie/>
+    </Router>
   );
-}
+};
 
 export default App;

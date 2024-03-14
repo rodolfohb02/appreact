@@ -1,0 +1,45 @@
+.contact-form {
+    display: flex; /* Arrange elements vertically by default */
+    flex-direction: column; /* Stack elements on top of each other */
+    width: 400px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 2rem; /* Add some padding for better spacing */
+    border: 1px solid #ddd; /* Optional border for visual separation */
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 1rem; /* Add space between the heading and form elements */
+  }
+  
+  .contact-form label {
+    display: flex; /* Arrange label and input horizontally */
+    margin-bottom: 0.5rem; /* Add some spacing between each field */
+    font-weight: bold; /* Emphasize labels for better readability */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Make input fields and textarea span the full width */
+    padding: 0.5rem; /* Add padding for better user interaction */
+    border: 1px solid #ccc; /* Basic border for visual cues */
+    border-radius: 4px; /* Rounded corners for a smoother look */
+  }
+  
+  .contact-form textarea {
+    resize: vertical; /* Allow users to resize the message textarea vertically */
+  }
+  
+  .contact-form button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 0.75rem 1rem; /* Adjust padding as needed */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Indicate clickable behavior */
+    margin-top: 1rem; /* Add space above the button */
+  }
+  
+  .contact-form button:hover {
+    background-color: #0069d9; /* Slightly darker blue on hover for feedback */
+  }
+  

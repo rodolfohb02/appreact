@@ -1,0 +1,51 @@
+.footer {
+  background-color: #ff962e; /* Dark gray background */
+  color: #fff; /* White text */
+}
+.copyright {
+  text-align: center; /* Center copyright text */
+  margin-top: 1rem; /* Add spacing above the copyright */
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.campo {
+  margin-right: 15px; /* Agregamos un margen entre los campos */
+}
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+}
+
+textarea {
+  height: 15px;
+}
+
+.boton-enviar {
+  margin-top: 15px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0b95da;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.boton-enviar:hover {
+  background-color: #486196;
+}

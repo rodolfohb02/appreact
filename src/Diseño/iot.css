@@ -1,0 +1,27 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; /* Center the form horizontally */
+    width: fit-content; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%; /* Adjust width as needed */
+  }
+  

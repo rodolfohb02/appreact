@@ -1,0 +1,50 @@
+body{
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', 'Roboto', 'Open Sans', 'Lato', 'Source Sans Pro', 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.headerHome{
+    width: 100vw;
+    height: 7rem;
+    background-color: #ff962e;    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1e1d1c;
+}
+
+.img-logo{
+    width: 7rem;
+    height: 95%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.navHome{
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.ancla{
+    margin-right: 2rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.ancla:hover{
+    background-color: #3a576c;
+    border-radius: 15px;
+    color: #ffffff;
+}
+.tit{
+    margin-right: 2rem;
+    color: #333;
+    text-decoration: none;
+}
